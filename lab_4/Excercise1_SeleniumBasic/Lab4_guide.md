@@ -717,9 +717,9 @@ git commit -m "test: add basic login success and failure tests for the-internet.
 ```
 
 **✅ Checklist TODO 2**
-- [ ] Có `@TestMethodOrder`, `@Order`, `@DisplayName`
-- [ ] Dùng `WebDriverWait` + `ExpectedConditions`, không `Thread.sleep()`
-- [ ] 2 test pass, `driver.quit()` trong `@AfterAll`
+- [x] Có `@TestMethodOrder`, `@Order`, `@DisplayName`
+- [x] Dùng `WebDriverWait` + `ExpectedConditions`, không `Thread.sleep()`
+- [x] 2 test pass, `driver.quit()` trong `@AfterAll`
 
 ---
 
