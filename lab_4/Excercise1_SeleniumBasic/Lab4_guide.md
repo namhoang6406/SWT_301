@@ -1051,10 +1051,10 @@ git commit -m "refactor: migrate login tests to page object model"
 ```
 
 **✅ Checklist TODO 5**
-- [ ] Đúng cấu trúc `pages/`, `tests/`, `utils/`
-- [ ] `LoginTest` không còn `driver.findElement`
-- [ ] Locator `private` trong `LoginPage`
-- [ ] Order 1→4 đều pass
+- [x] Đúng cấu trúc `pages/`, `tests/`, `utils/`
+- [x] `LoginTest` không còn `driver.findElement`
+- [x] Locator `private` trong `LoginPage`
+- [x] Order 1→4 đều pass
 
 ---
 
