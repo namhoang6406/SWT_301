@@ -1295,10 +1295,10 @@ git commit -m "refactor: make LoginTest extend BaseTest"
 3. Kiểm tra `git log --oneline` – các commit đúng chuẩn Conventional Commits.
 
 **✅ Checklist TODO 6**
-- [ ] `BasePage` có: waitForVisibility, click, type, getText, navigateTo, isElementVisible
-- [ ] `LoginPage extends BasePage`, không tự tạo wait riêng
-- [ ] `BaseTest` là `abstract`, quản lý vòng đời driver
-- [ ] `LoginTest extends BaseTest`, tất cả test pass
+- [x] `BasePage` có: waitForVisibility, click, type, getText, navigateTo, isElementVisible
+- [x] `LoginPage extends BasePage`, không tự tạo wait riêng
+- [x] `BaseTest` là `abstract`, quản lý vòng đời driver
+- [x] `LoginTest extends BaseTest`, tất cả test pass
 
 ---
 
